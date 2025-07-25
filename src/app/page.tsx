@@ -1,5 +1,6 @@
 // app/page.tsx
 import FeatureCard from "@/components/FeatureCard";
+import { TestiSection} from '@/components/TestiSection';
 import Image from "next/image"; // Gunakan komponen Image dari Next.js untuk optimasi
  
 // Ikon dari Heroicons (contoh)
@@ -70,6 +71,7 @@ export default function SmartWatchPage() {
           />
         </div>
       </section>
+      <TestiSection/>
     </div>
   );
 }
